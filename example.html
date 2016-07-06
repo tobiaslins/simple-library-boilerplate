@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Library Boilerplate Demo</title>
+		<script src="./lib/library.js"></script>
+	</head>
+	<body>
+    <h2>1 + 2?</h2>
+    <h3 id="answer"/>
+    <script>
+      var res = library.add(1, 2);
+      document.getElementById('answer').innerHTML = res;
+    </script>
+	</body>
+</html>
