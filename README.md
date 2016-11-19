@@ -9,7 +9,7 @@ I wanted to create a library for my company and started working on it from scrat
 Finally I created a simple boilerplate to start with it.
 
 
-# Includes
+## Includes
 
 - Use ES6 Syntax but built source running with ES5
 - Webpack
@@ -17,16 +17,16 @@ Finally I created a simple boilerplate to start with it.
 - ESLint with AirBnB Syntax
 
 
-# Build
+## Build
 
-## Dev
+### Dev
 `webpack -w`
 
-## Production
+### Production
 `NODE_ENV=PRODUCTION webpack -p`
 
 
-# Using the library
+## Using the library
 
 Import the library
 
@@ -38,11 +38,6 @@ Import the library
 ## Testing
 
 See [test cases](https://github.com/tobiaslins/Simple-Library-Boilerplate/blob/master/test/index.js) for examples.
-
-
-# License
-
-MIT
 
 
 [npm-image]: https://img.shields.io/npm/v/node-fetch.svg?style=flat-square
