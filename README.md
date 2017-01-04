@@ -5,10 +5,6 @@ Simple-Library-Boilerplate
 
 An awesome boilerplate for creating plain javascript libraries. Including ES6, Webpack, Mocha, ESLint
 
-I wanted to create a library for my company and started working on it from scratch.
-Finally I created a simple boilerplate to start with it.
-
-
 ## Includes
 
 - Use ES6 Syntax but built source running with ES5
