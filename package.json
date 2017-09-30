@@ -4,7 +4,9 @@
   "description": "Seamless JS SDK for mPAY24",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "seamless"
@@ -25,6 +27,8 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
-  }
+    "mocha": "^2.5.3",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
