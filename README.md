@@ -1,4 +1,4 @@
-Simple-Library-Boilerplate
+simple-library-boilerplate
 ==========
 
 [![build status][travis-image]][travis-url]
